@@ -1,0 +1,57 @@
+form {
+   width: 500px;
+   background-color: #ff6a00;
+   margin: 10px auto;
+   border-radius: 5px;
+}
+
+body {
+   background-color: #00a0c6;
+   margin: 0;
+   padding: 0;
+}
+
+h3 {
+   margin: 10px auto;
+}
+
+div {
+   margin: 10px 10px;
+   
+}
+
+#login {
+	background-color: #fff;
+   width: 500px;
+   margin: 0 auto;
+   border-radius: 5px;
+}
+
+#logintable {
+	width: 200px;
+	margin: 0 auto;
+}
+
+#logo {
+   background-color: #fff;
+   width: 500px;
+   margin: 0 auto;
+   border-radius: 5px;      
+}
+
+p {
+   font-size: 1.1em;
+}
+
+.listbox {
+   width: 100px;
+}
+
+.inputbox {
+	width: 35em;
+	height: 10em;
+}
+
+.submitbutton {
+	float: right;
+}

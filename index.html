@@ -1,0 +1,29 @@
+<?php/* 1. create a form with a table that has some textboxes for username and pw. Form method is post
+		worry about securing the connection later (although it might not be an issue if the database is local)
+	2. On submit, action=dailylog.php creates a query that matches username and password. If query returns a row,
+		then there was a match. 
+	3. In the dailylog.php page, add a preliminary check for valid un/pw from the login page. If valid,
+		continue, else exit;
+
+*/
+?>
+<!DOCTYPE HTML>
+<html>
+	<header>
+		<title>Log In</title>
+	</header>
+	<link type="text/css" rel="stylesheet" href="CSS\StyleSheet.css">
+<body>
+	<form action="dailylog.php" method="POST">
+		<div id="login">
+			<table id="logintable">
+				<thead><img src="img/ASClogo.png" alt="Austin Sunshine Camps" height="100px" width="200px"/></thead>
+				<tr><td>Username: </td> <td><input type="text" name="username"></td></tr>
+				<tr><td>Password: </td> <td><input type="password" name="password"></td></tr>
+				<tr><td></td><td><input type="submit" class='submitbutton' value="Submit"></td></tr>
+			</table>
+			
+		</div>
+	</form>
+</body>
+</html>
